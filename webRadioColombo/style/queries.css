@@ -1,0 +1,90 @@
+@media (max-width:600px) {
+    .nav-bar {
+        padding:0;
+        z-index:3;
+    }
+    .logo {
+        margin:20px;
+        font-size:22px;
+    }
+    .pages {
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        width:100vw;
+        height:100vh;
+        position:fixed;
+        top:0;
+        left:0;
+        background-color:rgba(255,255,250,1);
+        opacity:0;
+        transition:all ease-in-out 0.3s;
+    }
+    .pages a {
+        margin:10px 0;
+        color:#cac9c9
+    }
+
+    .ham-menu {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:40px;
+        height:40px;
+        margin:20px;
+        z-index:3;
+        cursor:pointer;
+    }
+    .ham-menu span {
+        height:2px;
+        background-color:#fffffa;
+        margin:3px 0;
+        transition:all ease-in-out 0.3s;
+    }
+    .ham-menu span:nth-child(1) {
+        width:30px;
+    }
+    .ham-menu span:nth-child(2) {
+        width:13px;
+    }
+    .ham-menu span:nth-child(3) {
+        width:22px;
+    }
+
+    .active .pages {
+        opacity:1;
+        transition:all ease-in-out 0.3s;
+    }
+    .active .ham-menu span {
+        background-color:#cac9c9;
+    }
+    .active .ham-menu span:nth-child(2) {
+        opacity:0;
+        transition:all ease-in-out 0.3s;
+    }
+    .active .ham-menu span:nth-child(1) {
+        width:40px;
+        transform:translateY(9px) rotateZ(45deg);
+        transition:all ease-in-out 0.3s;
+    }
+    .active .ham-menu span:nth-child(3) {
+        width:40px;
+        transform:translateY(-7px) rotateZ(-45deg);
+        transition:all ease-in-out 0.3s;
+    }
+    
+    .title {
+        padding:0 5vw;
+        z-index:0;
+    }
+    .title h1 {
+        font-size:34px;
+    }
+    .title h3 {
+        font-size:15px;
+    }
+
+    .transition p {
+        font-size:18px;
+    }
+}
