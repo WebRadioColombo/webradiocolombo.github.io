@@ -55,6 +55,7 @@
     top:50%;    
 }
 .title h1 {font-size:52px;}
+.title p {font-size:1.7em;}
 
 /* second section: arrow*/
 .frame:nth-child(2) {
