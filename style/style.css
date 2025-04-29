@@ -15,9 +15,10 @@
 .frame:nth-child(1) {
     width:100vw;
     height:70vh;
-    background-color:#e67002;
+    background-color:#002FA7;
     /*#09db3d*/
     /*#002FA7*/
+    /*#e67002*/
     color:#fffffa;
 }
 
