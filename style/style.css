@@ -15,7 +15,9 @@
 .frame:nth-child(1) {
     width:100vw;
     height:70vh;
-    background-color:#99CDD1;
+    background-color:#e67002;
+    /*#09db3d*/
+    /*#002FA7*/
     color:#fffffa;
 }
 
