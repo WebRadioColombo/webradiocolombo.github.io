@@ -5,7 +5,10 @@
     }
     .logo {
         margin:20px;
-        font-size:22px;
+        height:40px;
+    }
+    .logo img {
+        width:20%;
     }
     .pages {
         flex-direction:column;
