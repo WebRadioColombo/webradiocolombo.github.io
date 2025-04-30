@@ -15,11 +15,7 @@
 .frame:nth-child(1) {
     width:100vw;
     height:70vh;
-    background-color:#002FA7;
-    /*#09db3d*/
-    /*#002FA7*/
-    /*#e67002*/
-    /*background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(0, 47, 167, 1) 100%);*/
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(0, 47, 167, 1) 100%);
     color:#fffffa;
 }
 
@@ -54,7 +50,7 @@
 .title {
     padding:0 25vw;
     position:relative;
-    top:50%;    
+    top:50%;
 }
 .title h1 {font-size:52px;}
 .title p {font-size:1.7em;}
