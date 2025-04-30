@@ -29,8 +29,9 @@
     top:0;
     left:0;
 }
-.logo {
-    font-size:28px;
+
+.logo img {
+    width:10%;
 }
 .pages {
     display:flex;
@@ -89,3 +90,4 @@
     height:20px;
     transform:translateY(-37px) translateX(-7px) rotateZ(-45deg);
 }
+
