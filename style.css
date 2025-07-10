@@ -1,0 +1,75 @@
+/*font*/
+.bodoni-moda-regular {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*general*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #002FA7;
+}
+
+a:hover {
+    color:#000;
+}
+
+/* navigation bar*/
+#header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: 10vh;
+}
+
+#img-logo, #img-colombo {
+    height: 100%;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar div {
+    margin: 30px;
+    font-size: 20px;
+}
+
+#txt-logo {
+    font-size: 30px;
+    color: 	#002FA7;
+}
+
+/*title section*/
+#title {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #002FA7;
+}
+
+.txt {
+    color: #fff;
+
+}
+
+.txt h1 {
+    font-size: 64px;
+}
+
+#prova {
+    height: 100%;
+}
